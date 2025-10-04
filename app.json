@@ -1,0 +1,17 @@
+{
+  "name": "QRIS Dynamic Generator",
+  "description": "Generate dynamic QRIS payment codes with custom amounts",
+  "repository": "https://github.com/AmmarrBN/qris-generator",
+  "keywords": ["nextjs", "qris", "payment", "qr-code", "indonesia"],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "env": {
+    "NODE_ENV": {
+      "description": "Node environment",
+      "value": "production"
+    }
+  }
+}
